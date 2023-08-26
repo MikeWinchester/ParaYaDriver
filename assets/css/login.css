@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Google Sans",arial,sans-serif;
+}
+
+#opacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100vh;
+}
+
+#login-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+    border: 3px solid rgb(29, 134, 59);;
+}
+
+#logo{
+    width: 200px;
+    align-self: center;
+    margin-bottom: 70px;
+}
+
+.buttons{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    border:1px solid rgb(117, 110, 110);
+    border-radius: 10px;
+}
+
+.login-button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 235, 86);
+    font-weight: bolder;
+    transition: all 0.1s ease-in;
+}
+
+.login-button:hover{
+    background-color: rgb(73, 187, 78);
+    cursor: pointer;
+}
+
+.logos{
+    width: 30px;
+}
+
+#register{
+    text-decoration: none;
+}
+
+#register:hover{
+    text-decoration: underline;
+}
+
+#address-bt{
+    box-sizing: border-box;
+}
