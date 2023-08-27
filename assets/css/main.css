@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans",arial,sans-serif;
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+#logo{
+    width: 150px;
+}
+
+#button-container{
+    display: flex;
+    width: 100%;
+}
+
+.bt{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    background-color: white;
+    transition: all 0.1s ease-in;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.order-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+
+  .order-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .order-info {
+    margin-bottom: 3px;
+  }
+
+  .order-products {
+    margin-bottom: 3px;
+  }
+
+  .order-total {
+    margin-bottom: 3px;
+  }
+
+  .order-address {
+    margin-bottom: 3px;
+  }
+
+  .take-order-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+
+  .take-order-button:hover {
+    background-color: #0056b3;
+  }
